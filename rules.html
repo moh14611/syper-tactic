@@ -118,8 +118,7 @@
     <button onclick="showRules('jails')">أوقات السجون</button>
     <button onclick="showRules('death')">أوقات الموت</button>
     <button onclick="showRules('ban')">أوقات الحظر</button>
-    <button onclick="showRules('factions')">قوانين الفاكشنات</button>
-    <button onclick="showRules('gangs')">قوانين العصابات</button>
+    <button onclick="showRules('factions')">المشرفين</button>
     <button disabled><span class="soon">Soon</span> قســم إضافي</button>
   </div>
 
@@ -148,18 +147,10 @@
       </div>
     </div>
 
-    <!-- أوقات السجون -->
-    <div class="rule-section" id="jails" style="display:none">
-      <div class="rule-box">
-        <div class="title">1. دخول منطقة السجن دون سبب</div>
-        <div class="desc">يعرضك لسجن إداري.</div>
-      </div>
-    </div>
-
     <!-- أوقات الموت -->
     <div class="rule-section" id="death" style="display:none">
       <div class="rule-box">
-        <div class="title">1. القتل العشوائي ممنوع</div>
+        <div class="title">1. <span class="badge">حظر 14 يومًا</span> القتل العشوائي ممنوع</div>
         <div class="desc">سيؤدي إلى تحذير أو سجن.</div>
       </div>
     </div>
@@ -167,16 +158,63 @@
     <!-- أوقات الحظر -->
     <div class="rule-section" id="ban" style="display:none">
       <div class="rule-box">
-        <div class="title">1. استخدام برامج خارجية</div>
-        <div class="desc">يعرضك لحظر دائم دون إنذار.</div>
+        <div class="title">1. <span class="badge">حظر 14 يومًا</span> سب الطاقم الإداري</div>
+        <div class="desc">يُمنع بشكل قاطع التحدث بشكل مسيء لأي عضو من الطاقم الإداري في أي وقت.</div>
       </div>
+      <div class="rule-box">
+      <div class="title">2. <span class="badge">حظر 7 أيام</span> النشر الغير متعمد</div>
+      <div class="desc">لا يُسمح بنشر أي نوع من الإعلانات الخاصة بسيرفرات أخرى مثل روابط دعوة إلى سيرفرات ديسكورد أو ذكر أسماء سيرفرات أخرى داخل السيرفر، حتى وإن كان ذلك عن غير قصد.</div>
+      </div>
+      <div class="rule-box">
+      <div class="title">3. <span class="badge">حظر 31 يومًا</span> سب السيرفر</div>
+      <div class="desc">يحظر تمامًا التلفظ بألفاظ مسيئة أو التهجم على السيرفر بشكل عام سواء كان ذلك في الدردشة أو أثناء اللعب </div>
+      </div>
+      <div class="rule-box">
+      <div class="title">4. <span class="badge">حظر 7 أيام</span> سب الأهل</div>
+      <div class="desc">يحظر بشكل صارم التلفظ بألفاظ مسيئة أو التهجم على أهل أو عائلة أي لاعب داخل الخادم </div>
+      </div>
+      <div class="rule-box">
+      <div class="title">5. <span class="badge">حظر 14 يومًا</span> إستخدام الكريدت والعملات لغرض البيع والشراء الغير مصرح به</div>
+      <div class="desc">يهدف إلى منع إستخدام العملات والكريديت داخل الخادم لأغراض البيع والشراء غير المصرح بها ، بما في ذلك الموارد والعناصر النادرة يهدف هذا القانون إلى حماية الإقتصاد الإفتراضي للخادم وضمان تجربة عادلة ومسلية لجميع اللاعبين </div>
+      </div>
+      <div class="rule-box">
+      <div class="title">6 <span class="badge">(120h) حظر 5 أيام</span> إستخدام الجلتشات</div>
+      <div class="desc">يحظر بشدة إستغلال أو إستخدام الثغرات أو الأخطاء البرمجية في الخادم للحصول على ميزة غير عادلة أو تحقيق فوائد شخصية على حساب تجربة اللعب العادلة لجميع اللاعبين</div>
+      </div>
+      <div class="rule-box">
+      <div class="title">7 <span class="badge">حظر 15 يومًا</span> النشر المتعمد</div>
+      <div class="desc">لا يُسمح بنشر أي نوع من الإعلانات الخاصة بسيرفرات أخرى مثل روابط دعوة إلى سيرفرات ديسكورد أو ذكر أسماء سيرفرات أخرى داخل السيرفر</div>
+      </div>
+      <div class="rule-box">
+      <div class="title">6 <span class="badge">حظر 14 يومًا</span> إستخدام برامج الغش</div>
+      <div class="desc">يحظر بشكل تام استخدام أي برامج أو أدوات غش تمنح اللاعب ميزات غير عادلة </div>
     </div>
-
+  </div>
     <!-- قوانين الفاكشنات -->
     <div class="rule-section" id="factions" style="display:none">
       <div class="rule-box">
-        <div class="title">1. الالتزام بالأوامر داخل الفاكشن</div>
-        <div class="desc">عدم الطاعة يؤدي للطرد من الفاكشن.</div>
+        <div class="title">1. <span class="badge">Owner</span>Sonny</div>
+        <div class="desc">مسوؤل السيرفر بكامل</div>
+        </div>
+        <div class="rule-box">
+        <div class="title">2. <span class="badge">Owner</span>Zaxar</div>
+        <div class="desc">مسوؤل السيرفر بكامل</div>
+        </div>
+        <div class="rule-box">
+        <div class="title">3. <span class="badge">Owner</span>Mohammed</div>
+        <div class="desc">مسوؤل السيرفر بكامل</div>
+        </div>
+        <div class="rule-box">
+        <div class="title">4. <span class="badge">Staff-Manager</span>Mazen</div>
+        <div class="desc">مسوؤل ادمنية</div>
+        </div>
+        <div class="rule-box">
+        <div class="title">5. <span class="badge">Event-Manager</span>Over</div>
+        <div class="desc">مسوؤل فعاليات</div>
+        </div>
+        <div class="rule-box">
+        <div class="title">6. <span class="badge">Event-Manager</span>GoLD</div>
+        <div class="desc">مسوؤل فعاليات</div>
       </div>
     </div>
 
