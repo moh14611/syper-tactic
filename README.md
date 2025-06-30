@@ -1,1 +1,1 @@
-# syper-tactic
+# syper
